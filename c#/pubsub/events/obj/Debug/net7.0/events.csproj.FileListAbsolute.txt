@@ -50,5 +50,3 @@ D:\Development\bitbucket\go\projects\kubemq\docs\sdk-code-examples\c#\pubsub\eve
 D:\Development\bitbucket\go\projects\kubemq\docs\sdk-code-examples\c#\pubsub\events\obj\Debug\net7.0\events.pdb
 D:\Development\bitbucket\go\projects\kubemq\docs\sdk-code-examples\c#\pubsub\events\obj\Debug\net7.0\events.genruntimeconfig.cache
 D:\Development\bitbucket\go\projects\kubemq\docs\sdk-code-examples\c#\pubsub\events\obj\Debug\net7.0\ref\events.dll
-D:\Development\bitbucket\go\projects\kubemq\docs\sdk-code-examples\c#\pubsub\events\bin\Debug\net7.0\Icon.png
-D:\Development\bitbucket\go\projects\kubemq\docs\sdk-code-examples\c#\pubsub\events\bin\Debug\net7.0\KubeMQ.SDK.csharp.pdb

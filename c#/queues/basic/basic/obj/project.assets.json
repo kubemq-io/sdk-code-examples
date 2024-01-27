@@ -15,10 +15,10 @@
           }
         }
       },
-      "Grpc.Core/2.46.5": {
+      "Grpc.Core/2.46.6": {
         "type": "package",
         "dependencies": {
-          "Grpc.Core.Api": "2.46.5",
+          "Grpc.Core.Api": "2.46.6",
           "System.Memory": "4.5.3"
         },
         "compile": {
@@ -54,11 +54,8 @@
           }
         }
       },
-      "Grpc.Core.Api/2.50.0": {
+      "Grpc.Core.Api/2.60.0": {
         "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
         "compile": {
           "lib/netstandard2.1/Grpc.Core.Api.dll": {
             "related": ".pdb;.xml"
@@ -70,17 +67,18 @@
           }
         }
       },
-      "KubeMQ.SDK.csharp/1.6.0": {
+      "KubeMQ.SDK.csharp/1.7.1": {
         "type": "package",
         "dependencies": {
           "Google.Protobuf": "3.21.12",
-          "Grpc.Core": "2.46.5",
-          "Grpc.Core.Api": "2.50.0",
+          "Grpc.Core": "2.46.6",
+          "Grpc.Core.Api": "2.60.0",
           "Microsoft.Extensions.Configuration.Json": "3.1.2",
           "Microsoft.Extensions.Logging": "3.1.2",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.2",
-          "Newtonsoft.Json": "13.0.2",
+          "Newtonsoft.Json": "13.0.3",
           "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Text.Encodings.Web": "4.7.2",
           "System.Threading.Tasks.Dataflow": "4.11.0",
           "System.Threading.Tasks.Extensions": "4.5.3"
         },
@@ -341,7 +339,7 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.2": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -487,6 +485,19 @@
           }
         }
       },
+      "System.Text.Encodings.Web/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Threading.Tasks.Dataflow/4.11.0": {
         "type": "package",
         "compile": {
@@ -557,16 +568,16 @@
         "lib/netstandard2.0/Google.Protobuf.xml"
       ]
     },
-    "Grpc.Core/2.46.5": {
-      "sha512": "bD35LTppXYmRvymX6rV+mqc2wZcZf8o0fYkEJ414cul1RiGRWTeVWOtDC94CaTGG2Ie/XoLTd347bnBB5vHaGQ==",
+    "Grpc.Core/2.46.6": {
+      "sha512": "ZoRg3KmOJ2urTF4+u3H0b1Yv10xzz2Y/flFWS2tnRmj8dbKLeiJaSRqu4LOBD3ova90evqLkVZ85kUkC4JT4lw==",
       "type": "package",
-      "path": "grpc.core/2.46.5",
+      "path": "grpc.core/2.46.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net45/Grpc.Core.targets",
         "buildTransitive/net45/Grpc.Core.targets",
-        "grpc.core.2.46.5.nupkg.sha512",
+        "grpc.core.2.46.6.nupkg.sha512",
         "grpc.core.nuspec",
         "lib/net45/Grpc.Core.dll",
         "lib/net45/Grpc.Core.pdb",
@@ -585,22 +596,19 @@
         "runtimes/win-x86/native/grpc_csharp_ext.x86.dll"
       ]
     },
-    "Grpc.Core.Api/2.50.0": {
-      "sha512": "ECZr0AqUobCIfxPYm07D/IqMbGd+Vu9KquRLLY1kMzc/xWZdqqiK0jA6t6Y5gate3lV4EiH53cvfcb6anritQg==",
+    "Grpc.Core.Api/2.60.0": {
+      "sha512": "VWah+8dGJhhsay5BQ/Ljq6GYDWj0lSjdzqyoBgUQhXTbBqhs+q5dRFROKxI1xxzlL4pfUO45cf/y+KnHVFG9ew==",
       "type": "package",
-      "path": "grpc.core.api/2.50.0",
+      "path": "grpc.core.api/2.60.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "grpc.core.api.2.50.0.nupkg.sha512",
+        "grpc.core.api.2.60.0.nupkg.sha512",
         "grpc.core.api.nuspec",
         "lib/net462/Grpc.Core.Api.dll",
         "lib/net462/Grpc.Core.Api.pdb",
         "lib/net462/Grpc.Core.Api.xml",
-        "lib/netstandard1.5/Grpc.Core.Api.dll",
-        "lib/netstandard1.5/Grpc.Core.Api.pdb",
-        "lib/netstandard1.5/Grpc.Core.Api.xml",
         "lib/netstandard2.0/Grpc.Core.Api.dll",
         "lib/netstandard2.0/Grpc.Core.Api.pdb",
         "lib/netstandard2.0/Grpc.Core.Api.xml",
@@ -610,15 +618,15 @@
         "packageIcon.png"
       ]
     },
-    "KubeMQ.SDK.csharp/1.6.0": {
-      "sha512": "D0T5hFOmZG1Xcnbui/16TbfbvlnVSzw7Wh4dI+yT5MzcBuljT3ZxxgL/4fkR6fu1HZCb/0PC3ONdTUHw+J6/1g==",
+    "KubeMQ.SDK.csharp/1.7.1": {
+      "sha512": "1ZOe/r+ehF+ruuC5mLQNYKHjOmPlUC2eRLrAZhNU6vxpoJNPz6GQxeDupaFRp9sMsotP2ss1nUj/EqQP375/rg==",
       "type": "package",
-      "path": "kubemq.sdk.csharp/1.6.0",
+      "path": "kubemq.sdk.csharp/1.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "kubemq.sdk.csharp.1.6.0.nupkg.sha512",
+        "kubemq.sdk.csharp.1.7.1.nupkg.sha512",
         "kubemq.sdk.csharp.nuspec",
         "lib/net461/KubeMQ.SDK.csharp.dll",
         "lib/netstandard2.0/KubeMQ.SDK.csharp.dll"
@@ -892,10 +900,10 @@
         "version.txt"
       ]
     },
-    "Newtonsoft.Json/13.0.2": {
-      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.2",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -917,7 +925,7 @@
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -1177,6 +1185,30 @@
         "version.txt"
       ]
     },
+    "System.Text.Encodings.Web/4.7.2": {
+      "sha512": "iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.1/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.1/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.7.2.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Threading.Tasks.Dataflow/4.11.0": {
       "sha512": "bMF+efWutZcnXPWyDni1tF4dyn3YpIj7QLdhRPiqwOUNO+Y9NfN0FZH1v2s89VNz5yrxHa6OonIWEA8mOr7ytQ==",
       "type": "package",
@@ -1259,7 +1291,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "KubeMQ.SDK.csharp >= 1.6.0"
+      "KubeMQ.SDK.csharp >= 1.7.1"
     ]
   },
   "packageFolders": {
@@ -1301,7 +1333,7 @@
         "dependencies": {
           "KubeMQ.SDK.csharp": {
             "target": "Package",
-            "version": "[1.6.0, )"
+            "version": "[1.7.1, )"
           }
         },
         "imports": [

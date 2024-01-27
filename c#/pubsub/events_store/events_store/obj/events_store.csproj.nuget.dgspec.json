@@ -4,154 +4,6 @@
     "D:\\Development\\bitbucket\\go\\projects\\kubemq\\docs\\sdk-code-examples\\c#\\pubsub\\events_store\\events_store\\events_store.csproj": {}
   },
   "projects": {
-    "D:\\Development\\bitbucket\\.net\\kubemq\\KubeMQ.SDK.csharp\\KubeMQ.SDK.csharp.csproj": {
-      "version": "1.6.0",
-      "restore": {
-        "projectUniqueName": "D:\\Development\\bitbucket\\.net\\kubemq\\KubeMQ.SDK.csharp\\KubeMQ.SDK.csharp.csproj",
-        "projectName": "KubeMQ.SDK.csharp",
-        "projectPath": "D:\\Development\\bitbucket\\.net\\kubemq\\KubeMQ.SDK.csharp\\KubeMQ.SDK.csharp.csproj",
-        "packagesPath": "C:\\Users\\liorn\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\bitbucket\\.net\\kubemq\\KubeMQ.SDK.csharp\\obj\\",
-        "projectStyle": "PackageReference",
-        "crossTargeting": true,
-        "configFilePaths": [
-          "C:\\Users\\liorn\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net461",
-          "netstandard2.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net461": {
-            "targetAlias": "net461",
-            "projectReferences": {}
-          },
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net461": {
-          "targetAlias": "net461",
-          "dependencies": {
-            "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.21.12, )"
-            },
-            "Grpc.Core": {
-              "target": "Package",
-              "version": "[2.46.5, )"
-            },
-            "Grpc.Core.Api": {
-              "target": "Package",
-              "version": "[2.50.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.2, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[4.7.0, )"
-            },
-            "System.Threading.Tasks.Dataflow": {
-              "target": "Package",
-              "version": "[4.11.0, )"
-            },
-            "System.Threading.Tasks.Extensions": {
-              "target": "Package",
-              "version": "[4.5.3, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        },
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "dependencies": {
-            "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.21.12, )"
-            },
-            "Grpc.Core": {
-              "target": "Package",
-              "version": "[2.46.5, )"
-            },
-            "Grpc.Core.Api": {
-              "target": "Package",
-              "version": "[2.50.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.2, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[4.7.0, )"
-            },
-            "System.Threading.Tasks.Dataflow": {
-              "target": "Package",
-              "version": "[4.11.0, )"
-            },
-            "System.Threading.Tasks.Extensions": {
-              "target": "Package",
-              "version": "[4.5.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\Development\\bitbucket\\go\\projects\\kubemq\\docs\\sdk-code-examples\\c#\\pubsub\\events_store\\events_store\\events_store.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -173,11 +25,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "D:\\Development\\bitbucket\\.net\\kubemq\\KubeMQ.SDK.csharp\\KubeMQ.SDK.csharp.csproj": {
-                "projectPath": "D:\\Development\\bitbucket\\.net\\kubemq\\KubeMQ.SDK.csharp\\KubeMQ.SDK.csharp.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -189,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "KubeMQ.SDK.csharp": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

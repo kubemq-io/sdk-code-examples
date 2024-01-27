@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "events", "events.csproj", "{FC6029A2-8424-4DE7-8EF6-7875D7823AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubeMQ.SDK.csharp", "..\..\..\..\..\..\..\..\.net\kubemq\KubeMQ.SDK.csharp\KubeMQ.SDK.csharp.csproj", "{088953FE-CABD-4341-A1D1-1184764649D6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{FC6029A2-8424-4DE7-8EF6-7875D7823AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC6029A2-8424-4DE7-8EF6-7875D7823AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC6029A2-8424-4DE7-8EF6-7875D7823AEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{088953FE-CABD-4341-A1D1-1184764649D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{088953FE-CABD-4341-A1D1-1184764649D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{088953FE-CABD-4341-A1D1-1184764649D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{088953FE-CABD-4341-A1D1-1184764649D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

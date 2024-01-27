@@ -8,7 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\..\..\..\..\..\.net\kubemq\KubeMQ.SDK.csharp\KubeMQ.SDK.csharp.csproj" />
+      <Reference Include="KubeMQ.SDK.csharp">
+        <HintPath>..\..\..\..\..\..\..\..\.net\kubemq\KubeMQ.SDK.csharp\bin\Release\netstandard2.0\KubeMQ.SDK.csharp.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="KubeMQ.SDK.csharp" Version="1.7.1" />
     </ItemGroup>
 
 </Project>
