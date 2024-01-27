@@ -1,6 +1,6 @@
 import datetime
 from time import sleep
-from kubemq.commandquery import ChannelParameters, Channel, RequestType, Request, Responder, Sender, QueryRequest
+from kubemq.commandquery import Responder, Sender, QueryRequest
 from kubemq.commandquery.response import Response
 from kubemq.subscription import SubscribeType, SubscribeRequest
 from kubemq.tools import ListenerCancellationToken
