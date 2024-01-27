@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using KubeMQ.Grpc;
 using KubeMQ.SDK.csharp.QueueStream;
 
-namespace basic
+namespace tarnsactional
 {
     class Program
     {
@@ -19,7 +19,7 @@ namespace basic
                 messages.Add( new Message()
                 {
                     Queue = "q1",
-                    Body = System.Text.Encoding.UTF8.GetBytes("hello kubemq - sending single message")
+                    Body = "hello kubemq - sending single message"u8.ToArray()
                 });
 
                 await client.Send(new SendRequest(messages));
